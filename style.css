@@ -5,6 +5,12 @@
    font-family: sans-serif;
 }
 
+/* Small */
+@media (max-width: 767px) {
+   body {
+      width: 750px;
+   }
+}
 nav {
    width: 100%;
    height: 60px;
@@ -378,7 +384,7 @@ nav .right img {
    display: flex;
    align-items: center;
    margin: 0 auto;
-   padding: 7px 40px;
+   padding: 10px ;
    cursor: pointer;
 }
 
@@ -827,7 +833,7 @@ nav .right img {
    cursor: pointer;
 }
 /* Medium */
-@media (max-width: 992px) {
+@media (max-width: 991px) {
    .main .left {
       display: none;
    }
@@ -850,7 +856,7 @@ nav .right img {
    }
 }
 /* Small */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
    nav {
       padding: 0 20px;
    }
