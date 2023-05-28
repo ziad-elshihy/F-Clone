@@ -252,9 +252,8 @@ nav .right img {
    width: 100%;
    margin-bottom: 20px;
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 }
-
 .main .center .top_box .my_story_card {
    width: 115px;
    height: 220px;
@@ -914,7 +913,7 @@ nav .right img {
    .main .center {
       padding: 15px 30px;
       margin-left: 0;
-      width: 90%;
+      width: 80%;
    }
 
    .main .right .first_warpper .page h2 {
