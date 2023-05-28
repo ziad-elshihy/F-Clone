@@ -890,6 +890,22 @@ nav .right img {
    nav .left .search_bar i {
       margin-right: 0;
    }
+   .main .center .friends_post .info .emoji_img p {
+      font-size: 10px;
+      display: flex;
+      align-items: center;
+   }
+   .main .center .friends_post .info .comment p {
+      font-size: 10px;
+   }
+   .main .center .top_box .story_card {
+      width: 100px;
+      height: 170px;
+   }
+   .main .center .top_box .my_story_card {
+      width: 110px;
+      height: 185px;
+   }
 }
 
 /* Medium */
